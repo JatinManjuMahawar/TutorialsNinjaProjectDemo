@@ -12,7 +12,7 @@ import java.util.Properties;
 
 public class LoginTest {
     public WebDriver driver = null;
-
+//Jatin
     Properties prop = new Properties();
     FileInputStream fis;
 
