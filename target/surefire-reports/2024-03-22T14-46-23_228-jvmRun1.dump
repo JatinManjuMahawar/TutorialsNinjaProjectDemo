@@ -1,0 +1,33 @@
+# Created at 2024-03-22T14:46:45.727
+java.lang.RuntimeException: java.io.IOException: Failed to open file:/D:/TutorialsNinjaProjectDemo/test-outputs/ExtentReports/extentReport.html. Error message: No application is associated with the specified file for this operation.
+
+	at com.tutorialsninja.config.listeners.listeners.onFinish(listeners.java:76)
+	at org.testng.TestRunner.fireEvent(TestRunner.java:957)
+	at org.testng.TestRunner.afterRun(TestRunner.java:914)
+	at org.testng.TestRunner.run(TestRunner.java:622)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.io.IOException: Failed to open file:/D:/TutorialsNinjaProjectDemo/test-outputs/ExtentReports/extentReport.html. Error message: No application is associated with the specified file for this operation.
+
+	at java.desktop/sun.awt.windows.WDesktopPeer.ShellExecute(WDesktopPeer.java:115)
+	at java.desktop/sun.awt.windows.WDesktopPeer.browse(WDesktopPeer.java:101)
+	at java.desktop/java.awt.Desktop.browse(Desktop.java:533)
+	at com.tutorialsninja.config.listeners.listeners.onFinish(listeners.java:74)
+	... 20 more
+
+
