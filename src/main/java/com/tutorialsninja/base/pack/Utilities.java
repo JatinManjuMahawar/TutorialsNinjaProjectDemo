@@ -16,7 +16,7 @@ public class Utilities {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH-mm-ss.SSSSSSSSS");
         String formattedDateTime = currentDateTime.format(formatter);
 
-        String screenshotPath = System.getProperty("user.dir")+"\\test-outputs\\Screenshots\\"+formattedDateTime+testName+".PNG";
+        String screenshotPath = System.getProperty("user.dir")+"\\test-outputs\\Screenshots\\"+testName+"_"+formattedDateTime+testName+".PNG";
 
         File screenshotFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         try {
